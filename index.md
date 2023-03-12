@@ -72,7 +72,7 @@ Example 2: -mtime +30
 ```
 ---
 **Option 3: '-name'**
->
+---
 This option is used to search for files and directories that match a specific name.
 >
 Example 1:
@@ -105,4 +105,13 @@ Example 2:
 ./written_2/travel_guides/berlitz2
 ```
 ---
+**Option 4: '/tmp'
+---
+This option finds all the hidden files.
+```
+[cs15lwi23agr@ieng6-203]:docsearch:656$ find /tmp -type f -name ".*"
+find: '/tmp/cs15lwi23aom-pulse': Permission denied
+find: '/tmp/ee15wi23ij-pulse': Permission denied
+find: '/tmp/cs15lwi23ta14-pulse': Permission denied
+```
  
