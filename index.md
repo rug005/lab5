@@ -1,3 +1,4 @@
+# Ruben A Gonzalez 
 # Lab 5 Using *find* command
 
 **Option 1: '-type'**
