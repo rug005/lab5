@@ -105,7 +105,7 @@ Example 2:
 ./written_2/travel_guides/berlitz2
 ```
 ---
-**Option 4: '/tmp'
+**Option 4: '/tmp'**
 ---
 This option finds all the hidden files.
 ```
