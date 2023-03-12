@@ -115,6 +115,8 @@ find: '/tmp/ee15wi23ij-pulse': Permission denied
 find: '/tmp/cs15lwi23ta14-pulse': Permission denied
 ```
 **Option 5: '-iname'
+
+>
 This command searches for all files in the searched directory of the "docsearch" repository that start with the letters "file".
 ---
 Example 1:
