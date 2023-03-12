@@ -40,7 +40,7 @@ written_2/non-fiction/OUP/Berk/ch2.txt
 written_2/non-fiction/OUP/Berk/ch7.txt
  ```
  ---
- **Option 2: 'mtime' option**
+ **Option 2: '-mtime' option**
  ---
  This option is used to search for files that were modified in the last (x) days.
  >
@@ -114,13 +114,13 @@ find: '/tmp/cs15lwi23aom-pulse': Permission denied
 find: '/tmp/ee15wi23ij-pulse': Permission denied
 find: '/tmp/cs15lwi23ta14-pulse': Permission denied
 ```
-**Option 5: '-iname'
-
->
-This command searches for all files in the searched directory of the "docsearch" repository that start with the letters "file".
+**Option 5: '-iname'**
 ---
-Example 1:
-
+This command searches for all files in the searched directory of the "docsearch" repository that start with the letters "file".
+>
+---
+**Example 1:**
+---
 ```
 [cs15lwi23agr@ieng6-203]:docsearch:525$ find written_2/ -iname *.TXT
 written_2/non-fiction/OUP/Abernathy/ch1.txt
@@ -128,6 +128,7 @@ written_2/non-fiction/OUP/Abernathy/ch14.txt
 written_2/non-fiction/OUP/Abernathy/ch15.txt
 written_2/non-fiction/OUP/Abernathy/ch2.txt
 ```
+>
 Example 2:
 ---
 With '-iname'
