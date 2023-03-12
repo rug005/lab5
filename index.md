@@ -114,4 +114,34 @@ find: '/tmp/cs15lwi23aom-pulse': Permission denied
 find: '/tmp/ee15wi23ij-pulse': Permission denied
 find: '/tmp/cs15lwi23ta14-pulse': Permission denied
 ```
+**Option 5: '-iname'
+This command searches for all files in the searched directory of the "docsearch" repository that start with the letters "file".
+---
+Example 1:
+
+```
+[cs15lwi23agr@ieng6-203]:docsearch:525$ find written_2/ -iname *.TXT
+written_2/non-fiction/OUP/Abernathy/ch1.txt
+written_2/non-fiction/OUP/Abernathy/ch14.txt
+written_2/non-fiction/OUP/Abernathy/ch15.txt
+written_2/non-fiction/OUP/Abernathy/ch2.txt
+```
+Example 2:
+---
+With '-iname'
+```
+[cs15lwi23agr@ieng6-203]:StringServer:532$ find wavelet/ -iname *.java
+wavelet/NumberServer.java
+wavelet/Server.java
+```
+Without '-iname'
+```[cs15lwi23agr@ieng6-203]:StringServer:537$ find wavelet/ *.java
+wavelet/
+wavelet/.git
+wavelet/.git/info
+wavelet/.git/info/exclude
+wavelet/.git/hooks
+wavelet/.git/hooks/commit-msg.sample
+...
+```
  
