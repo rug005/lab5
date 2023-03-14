@@ -167,8 +167,10 @@ which finds a directory that contains -name "ListExamples.java"
 In this example we use the command, filepath=<backtick>find ./student-submission -name "ListExamples.java"<backtick>
  
 ---
+ >
 ![Image](find.png)
----
+ >
+ ---
 Sources: 
 1. ChatGPT for examples
 2. [find command in Linux with examples](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
