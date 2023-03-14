@@ -8,6 +8,9 @@ This option is used to specify the type of files to search for.
 (f = regular files, d = directories, l = symbolic links)
 >
 Example 1: -type d
+>
+For this example I typed the command < find ./written_2/ -type d > which
+allowed me to find the directories in the written_2 directory.
 ```
 [cs15lwi23agr@ieng6-203]:docsearch:510$ find ./written_2/ -type d
 ./written_2/
@@ -24,6 +27,9 @@ Example 1: -type d
 ./written_2/travel_guides/berlitz2
 ```
  Example 2: -type f
+ >
+ For this example I typed out < find written_2/ -type f > to find all
+ the regular files in the directory written_2/
  ```
  [cs15lwi23agr@ieng6-203]:docsearch:516$ find written_2/ -type f
 written_2/non-fiction/OUP/Abernathy/ch1.txt
@@ -61,6 +67,9 @@ written_2/non-fiction/OUP/Berk/ch7.txt
 
 Example 2: -mtime +30
 >
+For this example I used the command < find > on a old file I used a while back
+called StringServer and typed out the command < find ./StringServer -type f -mtime +30 >
+To get all the files that were updated 30 days out. You can do (+) any amount of days.
 ```[cs15lwi23agr@ieng6-203]:~:583$ find ./StringServer -type f -mtime +30
 ./StringServer/wavelet/.git/info/exclude
 ./StringServer/wavelet/.git/hooks/commit-msg.sample
@@ -75,8 +84,10 @@ Example 2: -mtime +30
 **Option 3: '-name'**
 ---
 This option is used to search for files and directories that match a specific name.
->
 Example 1:
+>
+For this example I typed out < find ./written_2/ -name '*.txt' >* which printed
+all the files with the name ".txt"
 ```
 [cs15lwi23agr@ieng6-203]:docsearch:533$ find ./written_2 -name '*.txt'
 ./written_2/non-fiction/OUP/Abernathy/ch1.txt
