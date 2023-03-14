@@ -1,5 +1,5 @@
 # Ruben A Gonzalez 
-# Lab 5 Using *find* command
+# Lab 5 Using *find* command (from lab 3 report)
 
 **Option 1: '-type'**
 ---
@@ -148,4 +148,8 @@ wavelet/.git/hooks
 wavelet/.git/hooks/commit-msg.sample
 ...
 ```
+---
+Sources: 
+1. ChatGPT for examples
+2. [find command in Linux with examples](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
  
